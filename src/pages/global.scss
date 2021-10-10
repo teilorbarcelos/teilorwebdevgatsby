@@ -1,0 +1,44 @@
+@import "~@fontsource/barlow-condensed/400.css";
+// @import "~@fontsource/barlow-condensed/500.css";
+// @import "~@fontsource/barlow-condensed/700.css";
+
+html,
+body,
+#___gatsby,
+#gatsby-focus-wrapper {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+:root {
+
+  // colors:
+  --black-normal: #0d0e10;
+  --black-dark: #050607;
+  --black-light: #15171a;
+
+  --white-normal: #f5f7f7;
+  --white-dark: #edeff0;
+  --white-light: #fafcfc;
+
+  --blue-normal: #2dc7ed;
+  --blue-dark: #15aed4;
+  --blue-light: #4ddcff;
+
+  --gray-1: #777;
+
+  // fonts
+  
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: 'Barlow Condensed', sans-serif;
+  color: var(--white-normal);
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
